@@ -6,13 +6,12 @@ no real spaces or hyphens are inserted, so the file on disk is always exactly
 as it was, whether you save, quit, or never touch it again.
 
 ```
- ragged source                    virtual view (file unchanged)
-┌──────────────────────────┐      ┌─────────────────────────────────────┐
-| Name | Long header here | │      | Name   | Long header here          | │
-|---|---------------------| │  ──► |--------|---------------------------| │
-| a very long cell | x      | │      | a very long cell          | x    | │
-| y | short                | │      | y                 | short           | │
-└──────────────────────────┘      └─────────────────────────────────────┘
+Ragged Source                   Virtual View (File Unchanged)
+
+| Name | Long header here |     | Name             | Long header here |
+|---|---|                   ──► |------------------|------------------|
+| a very long cell | x |        | a very long cell | x                |
+| y | short |                   | y                | short            |
 ```
 
 ## How it works
